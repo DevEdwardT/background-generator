@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(to right, #000000, #ffffff);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+.input-wrapper {
+  display: block;
+}
+
+h1,
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: rgb(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+  color: black;
+}
+
+#random {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+  color: black;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
